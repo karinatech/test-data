@@ -1,0 +1,5 @@
+{
+    "test-id": "dataDriven.spec",
+    "path": "cypress/integration/dataDriven.spec.js",
+    "data-folder": "tests/dataDriven"
+}

@@ -1,0 +1,8 @@
+[
+    {
+     "order_uuid": "<order_uuid_1>",
+    "status":  "processing_sample",
+    "status_change_timestamp": "timestamp in UTC in ISO 8601 format"
+}
+    ]
+    

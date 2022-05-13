@@ -1,0 +1,8 @@
+[
+    {
+     "order_uuid": "<order_uuid_1>",
+    "status":  "kit_shipped",
+    "status_change_timestamp": "timestamp in UTC in ISO 8601 format"
+}
+    ]
+    

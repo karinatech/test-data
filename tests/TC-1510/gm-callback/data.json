@@ -1,0 +1,8 @@
+{  
+    "order_uuid": "<order_uuid>",
+    "lab_patient_id": "<lab_patient_id>",
+    "lab_order_id": "<lab_order_id>", 
+    "lab_provider_id": "<lab_provider_id>",
+    "status": "order_placed" 
+    }
+   

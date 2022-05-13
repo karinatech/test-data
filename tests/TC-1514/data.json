@@ -1,0 +1,227 @@
+{
+    "statusCode": 200,
+    "statusMessage": "Success",
+    "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
+        "Access-Control-Allow-Methods": "OPTIONS,POST",
+        "Access-Control-Allow-Credentials": true,
+        "Access-Control-Allow-Origin": "*",
+        "X-Requested-With": "*"
+    },
+    "body": {
+        "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IktjX2VVMjNEdWhrLWgtYm85ZmpHaCJ9.eyJpc3MiOiJodHRwczovL2Rldi1reHFreGZmOC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjIwNTQ1YWRmZDhlZmQwMDY5MjczOTM4IiwiYXVkIjpbImh0dHBzOi8vcG9ydGFsLWRldi5nZW5vbWljbGlmZS5jb20iLCJodHRwczovL2Rldi1reHFreGZmOC51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjUyMjA5MTg0LCJleHAiOjE2NTIyMTAwODQsImF6cCI6IjAyb3V6T0xoNTNPUVllcklZVzBnNUxoQkJmWk9xV0IyIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBhZGRyZXNzIHBob25lIG9mZmxpbmVfYWNjZXNzIiwiZ3R5IjoicGFzc3dvcmQiLCJwZXJtaXNzaW9ucyI6W119.Q9WKF0O-SWjEDe5dq3SI12_jCTUKQFMSw6Ej395-ahV3da4qRW-e7eqbnORziDMC5eBavYGZsO2YtQD1dZ4POUEe4UfpBmMCWMmlQQuxwryucwMUbxhZVyt_ZGLTb6N3q0bUstNIT4aF_b4wFus7X_xWhMgFWJcqE7lHx6Noah1bX5PoH_UnW1vy_gCl8trnpXVIf8WfvIcgZpmzdKxL7kuk4oDeaLdNjPE1E4LsVtIsEDYq_NmqIzD509w3qLAM_lhef02II6ykJ6uzYohiW35A6k08tnt9hj-CXGErQ0p9bD-gLORF8MIDr562IHTCvdXbyDVd4kEWSs2lsw7w5A",
+        "data": {
+            "updatedOn": 1652209071,
+            "createdOn": 1651867905,
+            "formQuestions": [
+                {
+                    "question": "Do you have an active cancer diagnosis?",
+                    "answers": [
+                        {
+                            "answers": [
+                                {
+                                    "isChecked": false,
+                                    "id": "yes",
+                                    "label": "Yes"
+                                },
+                                {
+                                    "isChecked": true,
+                                    "id": "no",
+                                    "label": "No"
+                                }
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Have you been previously diagnosed with cancer?",
+                    "answers": [
+                        {
+                            "answers": [
+                                {
+                                    "isChecked": false,
+                                    "id": "yes",
+                                    "label": "Yes"
+                                },
+                                {
+                                    "isChecked": true,
+                                    "id": "no",
+                                    "label": "No"
+                                }
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Do you have at least one relative who was diagnosed with cancer?",
+                    "answers": [
+                        {
+                            "answers": [
+                                "None",
+                                ""
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Have you had a bone marrow or stem cell transplant?",
+                    "answers": [
+                        {
+                            "answers": [
+                                {
+                                    "isChecked": false,
+                                    "id": "boneMarrow",
+                                    "label": "Bone marrow"
+                                },
+                                {
+                                    "isChecked": false,
+                                    "id": "stemCell",
+                                    "label": "Stem cell"
+                                },
+                                {
+                                    "isChecked": false,
+                                    "id": "both",
+                                    "label": "Both"
+                                },
+                                {
+                                    "isChecked": true,
+                                    "id": "neither",
+                                    "label": "Neither"
+                                }
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Have you or a family member been diagnosed with any of these cardiovascular conditions under the age of 50?",
+                    "answers": [
+                        {
+                            "answers": [
+                                {
+                                    "isChecked": false,
+                                    "id": "yes",
+                                    "label": "Yes"
+                                },
+                                {
+                                    "isChecked": true,
+                                    "id": "no",
+                                    "label": "No"
+                                }
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Are you currently pregnant or planning a family in the next year?",
+                    "answers": [
+                        {
+                            "answers": [
+                                {
+                                    "isChecked": false,
+                                    "id": "yes",
+                                    "label": "Yes"
+                                },
+                                {
+                                    "isChecked": true,
+                                    "id": "no",
+                                    "label": "No"
+                                }
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Have you had a carrier screening?",
+                    "answers": [
+                        {
+                            "answers": [
+                                "I have not received a carrier screening.",
+                                ""
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Has your spouse or reproductive partner had a carrier screening?",
+                    "answers": [
+                        {
+                            "answers": [
+                                "They have not received a screening.",
+                                ""
+                            ],
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Ancestry, Race and Ethnicity",
+                    "answers": [
+                        {
+                            "answers": null,
+                            "fieldIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Please note if any of these ancestry, race and ethnicity categories apply to you.",
+                    "answers": [
+                        {
+                            "answers": null,
+                            "fieldIndex": 0
+                        },
+                        {
+                            "answers": null,
+                            "fieldIndex": 1
+                        },
+                        {
+                            "answers": null,
+                            "fieldIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "question": "Does your family have a history of cancer?",
+                    "answers": [
+                        {
+                            "answers": null,
+                            "fieldIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "pronouns": "he/him/his",
+            "id": "orderKitSurvey",
+            "gender": "male",
+            "glMemberId": "M2-9UDA-R725HZ",
+            "prefix": "",
+            "firstName": "Cypressfour",
+            "middleName": "",
+            "lastName": "Carter",
+            "preferredName": "",
+            "dob": "1953-11-06",
+            "sexAssignedAtBirth": "F",
+            "countryCode": "1",
+            "phoneNumber": "9455416100",
+            "email": "cypresstest1@genomiclife.com",
+            "addressLine1": "83791 Chris Station",
+            "addressLine2": "",
+            "addressLine3": "",
+            "city": "East Claudiaton",
+            "state": "KY",
+            "postalCode": "40826",
+            "country": "US"
+        },
+        "validations":{
+            "message":"We’ve successfully processed your kit request!"
+
+    }
+}
+}
